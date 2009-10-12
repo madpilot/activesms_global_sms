@@ -10,11 +10,11 @@ Usage:
 
 Put this in an environment or initializer:
 
-  ActiveSms::Base.establish_connection(
-    :adapter => 'global_sms',
-    :user => '[username]',
-    :password => '[password]'
-  )
+    ActiveSms::Base.establish_connection(
+        :adapter => 'global_sms',
+        :user => '[username]',
+        :password => '[password]'
+    )
 
 TODO
 ----
